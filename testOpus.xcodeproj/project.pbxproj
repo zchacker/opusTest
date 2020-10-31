@@ -3,19 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4200AD3F254DF1FB005E62E4 /* libopus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4200AD3E254DF1FB005E62E4 /* libopus.a */; };
 		42EDAB56254B787000C41A9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EDAB55254B787000C41A9A /* AppDelegate.swift */; };
 		42EDAB58254B787000C41A9A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EDAB57254B787000C41A9A /* SceneDelegate.swift */; };
 		42EDAB5A254B787000C41A9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EDAB59254B787000C41A9A /* ViewController.swift */; };
 		42EDAB5D254B787000C41A9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EDAB5B254B787000C41A9A /* Main.storyboard */; };
 		42EDAB5F254B787200C41A9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42EDAB5E254B787200C41A9A /* Assets.xcassets */; };
 		42EDAB62254B787200C41A9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EDAB60254B787200C41A9A /* LaunchScreen.storyboard */; };
+		42EDAB70254B7F3300C41A9A /* opusKit.c in Sources */ = {isa = PBXBuildFile; fileRef = 42EDAB6F254B7F3300C41A9A /* opusKit.c */; };
+		42EDAB72254B7F5800C41A9A /* include in Resources */ = {isa = PBXBuildFile; fileRef = 42EDAB71254B7F5800C41A9A /* include */; };
+		42EDAB7C254B87C500C41A9A /* RingBufferStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EDAB7B254B87C500C41A9A /* RingBufferStatus.swift */; };
+		42EDAB7E254B87F900C41A9A /* OpusSwiftPort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EDAB7D254B87F900C41A9A /* OpusSwiftPort.swift */; };
+		DEB4D660EAB1A674881D957C /* Pods_testOpus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC353CC92E3EED4023954C59 /* Pods_testOpus.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4200AD3E254DF1FB005E62E4 /* libopus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopus.a; path = "../../obuild/Debug-iphoneos/libopus.a"; sourceTree = "<group>"; };
 		42EDAB52254B787000C41A9A /* testOpus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testOpus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42EDAB55254B787000C41A9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42EDAB57254B787000C41A9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,15 @@
 		42EDAB5E254B787200C41A9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42EDAB61254B787200C41A9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42EDAB63254B787200C41A9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42EDAB6D254B7F3300C41A9A /* testOpus-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testOpus-Bridging-Header.h"; sourceTree = "<group>"; };
+		42EDAB6E254B7F3300C41A9A /* opusKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = opusKit.h; sourceTree = "<group>"; };
+		42EDAB6F254B7F3300C41A9A /* opusKit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = opusKit.c; sourceTree = "<group>"; };
+		42EDAB71254B7F5800C41A9A /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		42EDAB7B254B87C500C41A9A /* RingBufferStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingBufferStatus.swift; sourceTree = "<group>"; };
+		42EDAB7D254B87F900C41A9A /* OpusSwiftPort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpusSwiftPort.swift; sourceTree = "<group>"; };
+		8E1CFBF016F6DEE152B79F76 /* Pods-testOpus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testOpus.debug.xcconfig"; path = "Target Support Files/Pods-testOpus/Pods-testOpus.debug.xcconfig"; sourceTree = "<group>"; };
+		CC353CC92E3EED4023954C59 /* Pods_testOpus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testOpus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D76DC823B4C4CAC9C589DD05 /* Pods-testOpus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testOpus.release.xcconfig"; path = "Target Support Files/Pods-testOpus/Pods-testOpus.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4200AD3F254DF1FB005E62E4 /* libopus.a in Frameworks */,
+				DEB4D660EAB1A674881D957C /* Pods_testOpus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +60,8 @@
 			children = (
 				42EDAB54254B787000C41A9A /* testOpus */,
 				42EDAB53254B787000C41A9A /* Products */,
+				42EDAB69254B789400C41A9A /* Frameworks */,
+				C082E4DE369C619930E899C3 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +76,47 @@
 		42EDAB54254B787000C41A9A /* testOpus */ = {
 			isa = PBXGroup;
 			children = (
+				42EDAB6C254B7F1500C41A9A /* c port */,
 				42EDAB55254B787000C41A9A /* AppDelegate.swift */,
 				42EDAB57254B787000C41A9A /* SceneDelegate.swift */,
 				42EDAB59254B787000C41A9A /* ViewController.swift */,
+				42EDAB7B254B87C500C41A9A /* RingBufferStatus.swift */,
 				42EDAB5B254B787000C41A9A /* Main.storyboard */,
 				42EDAB5E254B787200C41A9A /* Assets.xcassets */,
 				42EDAB60254B787200C41A9A /* LaunchScreen.storyboard */,
 				42EDAB63254B787200C41A9A /* Info.plist */,
 			);
 			path = testOpus;
+			sourceTree = "<group>";
+		};
+		42EDAB69254B789400C41A9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4200AD3E254DF1FB005E62E4 /* libopus.a */,
+				CC353CC92E3EED4023954C59 /* Pods_testOpus.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42EDAB6C254B7F1500C41A9A /* c port */ = {
+			isa = PBXGroup;
+			children = (
+				42EDAB71254B7F5800C41A9A /* include */,
+				42EDAB6E254B7F3300C41A9A /* opusKit.h */,
+				42EDAB6F254B7F3300C41A9A /* opusKit.c */,
+				42EDAB6D254B7F3300C41A9A /* testOpus-Bridging-Header.h */,
+				42EDAB7D254B87F900C41A9A /* OpusSwiftPort.swift */,
+			);
+			path = "c port";
+			sourceTree = "<group>";
+		};
+		C082E4DE369C619930E899C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E1CFBF016F6DEE152B79F76 /* Pods-testOpus.debug.xcconfig */,
+				D76DC823B4C4CAC9C589DD05 /* Pods-testOpus.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +126,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42EDAB66254B787200C41A9A /* Build configuration list for PBXNativeTarget "testOpus" */;
 			buildPhases = (
+				B73428DE11F9E3FC76396194 /* [CP] Check Pods Manifest.lock */,
 				42EDAB4E254B787000C41A9A /* Sources */,
 				42EDAB4F254B787000C41A9A /* Frameworks */,
 				42EDAB50254B787000C41A9A /* Resources */,
+				32AC187060CFE671540394B1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,6 +153,7 @@
 				TargetAttributes = {
 					42EDAB51254B787000C41A9A = {
 						CreatedOnToolsVersion = 11.7;
+						LastSwiftMigration = 1170;
 					};
 				};
 			};
@@ -128,10 +183,53 @@
 				42EDAB62254B787200C41A9A /* LaunchScreen.storyboard in Resources */,
 				42EDAB5F254B787200C41A9A /* Assets.xcassets in Resources */,
 				42EDAB5D254B787000C41A9A /* Main.storyboard in Resources */,
+				42EDAB72254B7F5800C41A9A /* include in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32AC187060CFE671540394B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testOpus/Pods-testOpus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testOpus/Pods-testOpus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testOpus/Pods-testOpus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B73428DE11F9E3FC76396194 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testOpus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		42EDAB4E254B787000C41A9A /* Sources */ = {
@@ -139,6 +237,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				42EDAB5A254B787000C41A9A /* ViewController.swift in Sources */,
+				42EDAB7E254B87F900C41A9A /* OpusSwiftPort.swift in Sources */,
+				42EDAB7C254B87C500C41A9A /* RingBufferStatus.swift in Sources */,
+				42EDAB70254B7F3300C41A9A /* opusKit.c in Sources */,
 				42EDAB56254B787000C41A9A /* AppDelegate.swift in Sources */,
 				42EDAB58254B787000C41A9A /* SceneDelegate.swift in Sources */,
 			);
@@ -282,37 +383,81 @@
 		};
 		42EDAB67254B787200C41A9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E1CFBF016F6DEE152B79F76 /* Pods-testOpus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 63KB3Y5XUK;
+				ENABLE_BITCODE = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
 				INFOPLIST_FILE = testOpus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/testOpus",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ahmed.adm.testOpus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "testOpus/c port/testOpus-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/testOpus/c port/include/opus_custom.h\"",
+					"\"$(SRCROOT)/testOpus/c port/include/opus_defines.h\"",
+					"\"$(SRCROOT)/testOpus/c port/include/opus_multistream.h\"",
+					"\"$(SRCROOT)/testOpus/c port/include/opus_projection.h\"",
+					"\"$(SRCROOT)/testOpus/c port/include/opus_types.h\"",
+					"\"$(SRCROOT)/testOpus/c port/include/opus.h\"",
+					"\"$(SRCROOT)/testOpus/c port/include/**\"/**",
+				);
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		42EDAB68254B787200C41A9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D76DC823B4C4CAC9C589DD05 /* Pods-testOpus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 63KB3Y5XUK;
+				ENABLE_BITCODE = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
 				INFOPLIST_FILE = testOpus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/testOpus",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ahmed.adm.testOpus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "testOpus/c port/testOpus-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/testOpus/c port/include/opus_custom.h\"",
+					"\"$(SRCROOT)/testOpus/c port/include/opus_defines.h\"",
+					"\"$(SRCROOT)/testOpus/c port/include/opus_multistream.h\"",
+					"\"$(SRCROOT)/testOpus/c port/include/opus_projection.h\"",
+					"\"$(SRCROOT)/testOpus/c port/include/opus_types.h\"",
+					"\"$(SRCROOT)/testOpus/c port/include/opus.h\"",
+					"\"$(SRCROOT)/testOpus/c port/include/**\"/**",
+				);
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
